@@ -5998,7 +5998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dirX: 0
-  moveSpeed: -7
+  moveSpeed: 7
   moving: 0
   total: 0
   oldSceneObjects: {fileID: 559642722}
