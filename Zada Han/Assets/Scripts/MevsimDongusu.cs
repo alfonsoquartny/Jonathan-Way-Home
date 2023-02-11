@@ -18,6 +18,7 @@ public class MevsimDongusu : MonoBehaviour
     public Texture2D WinterTexture;
     public Texture2D WinterTextureNormal;
 
+    public float offsetY;
 
     public Terrain terrain;
     void Start()
@@ -47,6 +48,11 @@ public class MevsimDongusu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        offsetY += Time.deltaTime*3.7f;
+    }
+    private void FixedUpdate()
+    {
+            terrain.terrainData.terrainLayers[0].tileOffset=new Vector2(0, offsetY);
+
     }
 }
