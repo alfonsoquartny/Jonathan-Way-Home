@@ -44,7 +44,7 @@ public class SoundManager : MonoBehaviour
             thunderSource.Play();
             thunder.Play();
             timer = 0;
-            nextThunder = Random.RandomRange(5f,20f);
+            nextThunder = Random.RandomRange(12f,24f);
             ThunderSend = false;
         }
     }
