@@ -535,7 +535,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 781a496dc0b456b4597f6c9d448ba978, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2069da0e80fe95489f9757c118347b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -731,7 +731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 781a496dc0b456b4597f6c9d448ba978, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2069da0e80fe95489f9757c118347b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -936,17 +936,17 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 0.8392157, g: 0.8863573, b: 1, a: 1}
+  m_Intensity: 2.37
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.552
     m_Bias: 0.02
     m_NormalBias: 0.1
     m_NearPlane: 0.1
@@ -982,11 +982,11 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.484e-42, y: 1.02e-43, z: 2.8572842e+32, w: 0.000000026396279}
+  m_BoundingSphereOverride: {x: 0, y: -4.0461402e+10, z: 3.03e-43, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
-  m_ShadowAngle: 0
+  m_ShadowAngle: 4.9
 --- !u!4 &2138677393
 Transform:
   m_ObjectHideFlags: 0
@@ -1030,6 +1030,7 @@ GameObject:
   - component: {fileID: 543450653319533594}
   - component: {fileID: 919132149399998114}
   - component: {fileID: 919132149399998113}
+  - component: {fileID: 919132149399998115}
   m_Layer: 0
   m_Name: Mjolnir2
   m_TagString: Untagged
@@ -1067,6 +1068,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dirX: 0
   moveSpeed: 8.65
+--- !u!95 &919132149399998115
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149399998112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a47137efa0f723e43b76a4e096f7d598, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2749229944178013490
 GameObject:
   m_ObjectHideFlags: 0
