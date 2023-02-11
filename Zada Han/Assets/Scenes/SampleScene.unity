@@ -5907,8 +5907,8 @@ MonoBehaviour:
   - Winter
   Sonbahar: {fileID: 1770082664}
   Winter: {fileID: 810443738}
-  SonbaharTexture: {fileID: 2800000, guid: f0ed7bcca0d5bad43bbed63d1845797f, type: 3}
-  SonbaharTextureNormal: {fileID: 2800000, guid: c300f1534ccfab048a047700f8481d85, type: 3}
+  SonbaharTexture: {fileID: 2800000, guid: a84e2e83ebe709f448a1f2ba67ffa485, type: 3}
+  SonbaharTextureNormal: {fileID: 2800000, guid: 0883f38e55c8d714e8edae69f4a051f2, type: 3}
   WinterTexture: {fileID: 2800000, guid: 005e458ab999d414dbf69d932e89ee2f, type: 3}
   WinterTextureNormal: {fileID: 2800000, guid: c300f1534ccfab048a047700f8481d85, type: 3}
   offsetY: 0
@@ -7110,7 +7110,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.8392157, g: 0.8863573, b: 1, a: 1}
-  m_Intensity: 1.55
+  m_Intensity: 3.1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
