@@ -5909,8 +5909,8 @@ MonoBehaviour:
   Winter: {fileID: 810443738}
   SonbaharTexture: {fileID: 2800000, guid: a84e2e83ebe709f448a1f2ba67ffa485, type: 3}
   SonbaharTextureNormal: {fileID: 2800000, guid: 0883f38e55c8d714e8edae69f4a051f2, type: 3}
-  WinterTexture: {fileID: 2800000, guid: 005e458ab999d414dbf69d932e89ee2f, type: 3}
-  WinterTextureNormal: {fileID: 2800000, guid: c300f1534ccfab048a047700f8481d85, type: 3}
+  WinterTexture: {fileID: 2800000, guid: 15942abeb680dcb468731c6ae40e7d86, type: 3}
+  WinterTextureNormal: {fileID: 2800000, guid: b0f496ba0855a8047a83756b00dc6ad2, type: 3}
   offsetY: 0
   terrain: {fileID: 1484096508}
 --- !u!1 &1334712100
