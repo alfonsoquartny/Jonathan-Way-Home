@@ -9,6 +9,12 @@ public class Accelerometre : MonoBehaviour
    public float dirX;
   public  float moveSpeed;
 
+
+    AudioSource MjolnirAudio;
+
+
+    public AudioClip[] AbilitySoundEffects;
+
     bool right;
     bool left;
 
@@ -19,6 +25,7 @@ public class Accelerometre : MonoBehaviour
     {
         rb=GetComponent<Rigidbody>();
      animator=GetComponent<Animator>();
+        MjolnirAudio=GetComponent<AudioSource>();
 
     }
 
@@ -44,9 +51,18 @@ public class Accelerometre : MonoBehaviour
        
 
     }
+
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(dirX, 0f);
 
     }
+
+    public void SkillTornado()
+    {
+
+        MjolnirAudio.clip = AbilitySoundEffects[0];
+        MjolnirAudio.Play();
+    }
+
 }
