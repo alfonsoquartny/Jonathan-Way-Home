@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &356352478
 Transform:
   m_ObjectHideFlags: 0
@@ -327,6 +327,7 @@ GameObject:
   - component: {fileID: 457631661}
   - component: {fileID: 457631663}
   - component: {fileID: 457631662}
+  - component: {fileID: 457631664}
   m_Layer: 5
   m_Name: Text (TMP) (3)
   m_TagString: Untagged
@@ -341,18 +342,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457631660}
-  m_LocalRotation: {x: 0.10599926, y: 0.023671197, z: -0.21665715, w: 0.9701874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 41}
-  m_LocalScale: {x: 0.39641, y: 0.39641, z: 0.39641}
+  m_LocalScale: {x: 0.3279039, y: 0.3279039, z: 0.3279039}
   m_Children: []
   m_Father: {fileID: 1787867254}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 12.47, y: 0, z: -25.177}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 164, y: 186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 5.600006}
   m_SizeDelta: {x: 475.32, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &457631662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,7 +374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: shake!
+  m_text: shake the screen!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55b5ad669b8800a42bfe606aedda9cfe, type: 2}
   m_sharedMaterial: {fileID: 2715029336586803133, guid: 55b5ad669b8800a42bfe606aedda9cfe, type: 2}
@@ -382,8 +383,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 2295136000
+  m_fontColor: {r: 0, g: 1, b: 0.7981026, a: 0.53333336}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -450,6 +451,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457631660}
   m_CullTransparentMesh: 1
+--- !u!95 &457631664
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457631660}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb2123a668c1a4e4aa647b884c9d9087, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &516663109
 GameObject:
   m_ObjectHideFlags: 0
