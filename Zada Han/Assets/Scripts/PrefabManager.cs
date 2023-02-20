@@ -10,6 +10,9 @@ public class PrefabManager : MonoBehaviour
 
 
     public GameObject[] prefabs;
+
+
+  public  int currentFab;
     void Start()
     {
         timerStartCount = timer;
@@ -29,11 +32,18 @@ public class PrefabManager : MonoBehaviour
             deployPrefab();
             timer = timerStartCount;
         }
+
+        if (currentFab >= prefabs.Length-1)
+        {
+            currentFab = -1;
+        }
     }
 
 
     void deployPrefab()
     {
-        Instantiate(prefabs[Random.Range(0,prefabs.Length)]);
+        Instantiate(prefabs[currentFab+1]);
+        currentFab = currentFab + 1;
+
     }
 }
