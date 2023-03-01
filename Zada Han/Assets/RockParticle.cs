@@ -2,14 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class rockManagement : MonoBehaviour
+public class RockParticle : MonoBehaviour
 {
-
-    public GameObject particles;
-
+    // Start is called before the first frame update
     void Start()
     {
-        particles.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -18,17 +16,11 @@ public class rockManagement : MonoBehaviour
         
     }
 
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             gameObject.GetComponent<BoxCollider>().isTrigger= true;
-            gameObject.GetComponent<MeshFilter>().mesh= null;
-            gameObject.GetComponent<AudioSource>().Play();
-            particles.SetActive(true);
-
-            Destroy(gameObject,4f);
         }
     }
 }
