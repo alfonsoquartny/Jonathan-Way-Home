@@ -61,7 +61,7 @@ public class Accelerometre : MonoBehaviour
      GameObject skill1= Instantiate
             (skill1PreFab);
         Destroy(skill1, 3f);
-
+        GameObject.Find("Stats").GetComponent<SkillsTimeProgress>().Skill1CurrentValue = 100;
     }
 
 }

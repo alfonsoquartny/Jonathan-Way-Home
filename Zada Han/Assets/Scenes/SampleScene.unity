@@ -741,6 +741,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fdb1157c329d2d4c9be27c22e0131b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skill1Image: {fileID: 1861531299}
+  skill1Speed: 12
+  Skill1CurrentValue: 0
+  skill1: {fileID: 1561300809}
 --- !u!4 &624542961
 Transform:
   m_ObjectHideFlags: 0
@@ -6973,13 +6977,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 781a496dc0b456b4597f6c9d448ba978, type: 3}
-  m_Type: 0
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
-  m_FillAmount: 1
+  m_FillAmount: 0
   m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillOrigin: 1
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1861531300
