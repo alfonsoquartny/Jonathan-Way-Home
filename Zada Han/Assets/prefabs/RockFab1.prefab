@@ -95,7 +95,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019965688, y: 0.02039488, z: 0.018720776}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.00030902773, y: -0.0001956671, z: 0.00009821772}
 --- !u!54 &270262845813998341
 Rigidbody:
@@ -107,7 +107,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -208,7 +208,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019965686, y: 0.020394882, z: 0.018720776}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0003090277, y: -0.00019566712, z: 0.000098221455}
 --- !u!54 &577087734755350705
 Rigidbody:
@@ -220,7 +220,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -321,7 +321,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.017982777, y: 0.018333552, z: 0.019418765}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.00023017544, y: -0.0005800583, z: 0.00028351828}
 --- !u!54 &965937442569038187
 Rigidbody:
@@ -333,7 +333,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -434,7 +434,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019449746, y: 0.021016814, z: 0.020136742}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000003444496, y: -0.000096024465, z: 0.0005770548}
 --- !u!54 &1122504028555251736
 Rigidbody:
@@ -446,7 +446,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -547,7 +547,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01967711, y: 0.021210995, z: 0.020133562}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0002863528, y: -0.0002918676, z: 0.001216368}
 --- !u!54 &1280324790770733652
 Rigidbody:
@@ -559,7 +559,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -719,7 +719,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019169327, y: 0.020213138, z: 0.019029373}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000016500708, y: 0.00002253707, z: 0.00028595416}
 --- !u!54 &2024077885667532790
 Rigidbody:
@@ -731,7 +731,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -832,7 +832,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019218579, y: 0.020381879, z: 0.018937044}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.00039488217, y: -0.00006799212, z: -0.00012603818}
 --- !u!54 &2618428904778388694
 Rigidbody:
@@ -844,7 +844,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -945,7 +945,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019539388, y: 0.021031436, z: 0.020215057}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0000025662591, y: -0.00025944173, z: 0.00062210567}
 --- !u!54 &2743283862545861334
 Rigidbody:
@@ -957,7 +957,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1058,7 +1058,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019218577, y: 0.02038188, z: 0.018937044}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.0003948821, y: -0.00006799212, z: -0.00012603446}
 --- !u!54 &2827724920931126267
 Rigidbody:
@@ -1070,7 +1070,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1171,7 +1171,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01967711, y: 0.021210995, z: 0.020133562}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0002863528, y: -0.0002918676, z: 0.0012163643}
 --- !u!54 &2950927819603269925
 Rigidbody:
@@ -1183,7 +1183,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1284,7 +1284,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019169325, y: 0.02021314, z: 0.019029373}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000016500706, y: 0.000022537071, z: 0.0002859616}
 --- !u!54 &3402230509054211833
 Rigidbody:
@@ -1296,7 +1296,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1397,7 +1397,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.017982775, y: 0.018333552, z: 0.019418765}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.00023017541, y: -0.0005800583, z: 0.000283522}
 --- !u!54 &3462151016103353955
 Rigidbody:
@@ -1409,7 +1409,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1510,7 +1510,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.017982775, y: 0.018333552, z: 0.019418765}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.00023017541, y: -0.0005800583, z: 0.00028352573}
 --- !u!54 &4064834797577939156
 Rigidbody:
@@ -1522,7 +1522,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1623,7 +1623,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.017482629, y: 0.018502628, z: 0.019063892}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000045082994, y: -0.000117171534, z: -0.0001912601}
 --- !u!54 &5054224272715087040
 Rigidbody:
@@ -1635,7 +1635,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1736,7 +1736,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.017482629, y: 0.018502628, z: 0.019063892}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000045082994, y: -0.000117171534, z: -0.00019125637}
 --- !u!54 &5127850611854236501
 Rigidbody:
@@ -1748,7 +1748,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1849,7 +1849,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019449746, y: 0.021016814, z: 0.020136742}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000003444496, y: -0.000096024465, z: 0.0005770585}
 --- !u!54 &5359865814246308308
 Rigidbody:
@@ -1861,7 +1861,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1962,7 +1962,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.018244551, y: 0.019610416, z: 0.018534}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.0001427289, y: 0.000035171855, z: -0.00021447889}
 --- !u!54 &5418711871053290200
 Rigidbody:
@@ -1974,7 +1974,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2075,7 +2075,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020105848, y: 0.022477692, z: 0.02021656}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0008459948, y: 0.000521609, z: 0.0007021793}
 --- !u!54 &5480709053385112796
 Rigidbody:
@@ -2087,7 +2087,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2188,7 +2188,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01953939, y: 0.021031434, z: 0.020215055}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0000025662594, y: -0.00025944173, z: 0.00062209816}
 --- !u!54 &5565062673052792226
 Rigidbody:
@@ -2200,7 +2200,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2301,7 +2301,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019965686, y: 0.020394882, z: 0.018720776}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0003090277, y: -0.00019566712, z: 0.00009822518}
 --- !u!54 &5692472641415952679
 Rigidbody:
@@ -2313,7 +2313,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2414,7 +2414,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019677112, y: 0.021210993, z: 0.02013356}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.00028635282, y: -0.0002918676, z: 0.0012163606}
 --- !u!54 &5785680738864503860
 Rigidbody:
@@ -2426,7 +2426,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2527,7 +2527,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.018244551, y: 0.019610416, z: 0.018534}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.0001427289, y: 0.000035171855, z: -0.00021448261}
 --- !u!54 &5798554925099112336
 Rigidbody:
@@ -2539,7 +2539,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2640,7 +2640,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020105846, y: 0.022477694, z: 0.020216562}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0008459947, y: 0.000521609, z: 0.0007021831}
 --- !u!54 &5935095188033945197
 Rigidbody:
@@ -2652,7 +2652,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2753,7 +2753,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.020105846, y: 0.022477694, z: 0.020216562}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0008459947, y: 0.000521609, z: 0.00070218684}
 --- !u!54 &6496746020973901387
 Rigidbody:
@@ -2765,7 +2765,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2866,7 +2866,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019218577, y: 0.02038188, z: 0.018937044}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.0003948821, y: -0.00006799212, z: -0.00012603073}
 --- !u!54 &6686828289910286462
 Rigidbody:
@@ -2878,7 +2878,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2979,7 +2979,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019169325, y: 0.02021314, z: 0.019029373}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000016500706, y: 0.000022537071, z: 0.00028595788}
 --- !u!54 &6958796491454892777
 Rigidbody:
@@ -2991,7 +2991,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3011,6 +3011,7 @@ GameObject:
   - component: {fileID: 7154465180596957420}
   - component: {fileID: 7154465180596957423}
   - component: {fileID: 7154465180596957422}
+  - component: {fileID: 8734161219344053877}
   m_Layer: 0
   m_Name: RockFab1
   m_TagString: Untagged
@@ -3025,14 +3026,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7154465180596957421}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: 2.32, y: 0.212, z: 10}
   m_LocalScale: {x: -61.82206, y: -39.906643, z: -39.906643}
   m_Children:
   - {fileID: 1908467921373892031}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &8741969583039481445
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3091,7 +3092,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7154465180596957421}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.019449748, y: 0.021016812, z: 0.1}
@@ -3123,6 +3124,103 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f98fba5503531274da5510e69a65e941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particles: {fileID: 1908467921373892028}
+--- !u!82 &8734161219344053877
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7154465180596957421}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2ab16a5e2cd17840910e132e2b2daaa, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.296
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &7658134029653309658
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,7 +3316,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.01748263, y: 0.018502628, z: 0.019063892}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.000045082998, y: -0.00011717153, z: -0.00019126381}
 --- !u!54 &7658134029653309660
 Rigidbody:
@@ -3230,7 +3328,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3331,7 +3429,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.018244553, y: 0.019610414, z: 0.018534}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: 0.00014272891, y: 0.000035171855, z: -0.00021448632}
 --- !u!54 &8676990854059399364
 Rigidbody:
@@ -3343,7 +3441,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3444,7 +3542,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019539388, y: 0.021031436, z: 0.020215057}
+  m_Size: {x: 0.02, y: 0.02, z: 0.02}
   m_Center: {x: -0.0000025662591, y: -0.00025944173, z: 0.00062210194}
 --- !u!54 &8863107215086771872
 Rigidbody:
@@ -3456,7 +3554,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 500
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0

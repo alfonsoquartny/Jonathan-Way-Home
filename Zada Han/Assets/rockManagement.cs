@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class rockManagement : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public GameObject particles;
+
     void Start()
     {
-        
+        particles.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            gameObject.GetComponent<BoxCollider>().isTrigger= true;
+            gameObject.GetComponent<MeshFilter>().mesh= null;
+            gameObject.GetComponent<AudioSource>().Play();
+            particles.SetActive(true);
+
+            Destroy(gameObject,4f);
+        }
     }
 }

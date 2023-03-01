@@ -10,10 +10,8 @@ public class Accelerometre : MonoBehaviour
   public  float moveSpeed;
 
 
-    AudioSource MjolnirAudio;
+    public GameObject skill1PreFab;
 
-
-    public AudioClip[] AbilitySoundEffects;
 
     bool right;
     bool left;
@@ -25,7 +23,6 @@ public class Accelerometre : MonoBehaviour
     {
         rb=GetComponent<Rigidbody>();
      animator=GetComponent<Animator>();
-        MjolnirAudio=GetComponent<AudioSource>();
 
     }
 
@@ -58,11 +55,13 @@ public class Accelerometre : MonoBehaviour
 
     }
 
-    public void SkillTornado()
+    public void Skill1()
     {
 
-        MjolnirAudio.clip = AbilitySoundEffects[0];
-        MjolnirAudio.Play();
+     GameObject skill1= Instantiate
+            (skill1PreFab);
+        Destroy(skill1, 3f);
+
     }
 
 }
