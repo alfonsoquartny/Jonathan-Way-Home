@@ -14,6 +14,9 @@ public class StoneMovement : MonoBehaviour
         vec = gameObject.transform.position;
         vecZ = gameObject.transform.position.z;
 
+
+        Destroy(gameObject,12f);
+
     }
 
     // Update is called once per frame

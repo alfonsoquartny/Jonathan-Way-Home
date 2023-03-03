@@ -10,9 +10,10 @@ public class PrefabManager : MonoBehaviour
 
 
     public GameObject[] prefabs;
+    public Transform[] prefabLocations;
 
+    public int currentFab;
 
-  public  int currentFab;
     void Start()
     {
         timerStartCount = timer;
@@ -21,7 +22,7 @@ public class PrefabManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer-= Time.deltaTime;
+        timer -= Time.deltaTime;
     }
 
 
@@ -33,7 +34,7 @@ public class PrefabManager : MonoBehaviour
             timer = timerStartCount;
         }
 
-        if (currentFab >= prefabs.Length-1)
+        if (currentFab >= prefabs.Length - 1)
         {
             currentFab = -1;
         }
@@ -42,7 +43,7 @@ public class PrefabManager : MonoBehaviour
 
     void deployPrefab()
     {
-        Instantiate(prefabs[currentFab+1]);
+        Instantiate(prefabs[currentFab + 1], prefabLocations[Random.RandomRange(0, prefabLocations.Length)].position, Quaternion.identity);
         currentFab = currentFab + 1;
 
     }
