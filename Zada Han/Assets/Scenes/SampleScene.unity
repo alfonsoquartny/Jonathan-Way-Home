@@ -6499,6 +6499,7 @@ MonoBehaviour:
   WinterTexture: {fileID: 2800000, guid: 15942abeb680dcb468731c6ae40e7d86, type: 3}
   WinterTextureNormal: {fileID: 2800000, guid: b0f496ba0855a8047a83756b00dc6ad2, type: 3}
   offsetY: 0
+  speed: 3.5
   terrain: {fileID: 1484096508}
 --- !u!1 &1220994143
 GameObject:

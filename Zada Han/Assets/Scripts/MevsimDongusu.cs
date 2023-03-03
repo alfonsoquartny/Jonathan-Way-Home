@@ -20,6 +20,9 @@ public class MevsimDongusu : MonoBehaviour
 
     public float offsetY;
 
+
+    public float speed;
+
     public Terrain terrain;
     void Start()
     {
@@ -48,7 +51,7 @@ public class MevsimDongusu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        offsetY += Time.deltaTime*3.7f;
+        offsetY += Time.deltaTime*speed;
     }
     private void FixedUpdate()
     {

@@ -3448,7 +3448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vec: {x: 2.26, y: 8.394315, z: -8}
-  speed: 2
+  speed: 3.5
   vecZ: -8
 --- !u!114 &7154465180596957422
 MonoBehaviour:
