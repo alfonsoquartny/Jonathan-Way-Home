@@ -5,46 +5,75 @@ using UnityEngine;
 public class PrefabManager : MonoBehaviour
 {
 
-    public float timer;
-    private float timerStartCount;
+    public float StoneTimer;
+    public float RockTimer;
+
+    private float StonetimerStartCount;
+    private float RocktimerStartCount;
 
 
-    public GameObject[] prefabs;
-    public Transform[] prefabLocations;
 
-    public int currentFab;
+    public GameObject[] StonesPrefabs;
+    public Transform[] StonesPrefabLocations;
+
+    public GameObject[] RockPrefabs;
+    public Transform[] RockPrefabLocations;
+
+    public int StoneCurrentFab;
+    public int RockCurrentFab;
 
     void Start()
     {
-        timerStartCount = timer;
+        StonetimerStartCount = StoneTimer;
+        RocktimerStartCount = RockTimer;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer -= Time.deltaTime;
+        StoneTimer -= Time.deltaTime;
+        RockTimer-= Time.deltaTime;
     }
 
 
     private void FixedUpdate()
     {
-        if (timer <= 0)
+        if (StoneTimer <= 0)
         {
             deployPrefab();
-            timer = timerStartCount;
+            StoneTimer = StonetimerStartCount;
         }
 
-        if (currentFab >= prefabs.Length - 1)
+        if (RockTimer <= 0)
         {
-            currentFab = -1;
+            deployRock();
+            RockTimer = RocktimerStartCount;
+        }
+
+        if (StoneCurrentFab >= StonesPrefabs.Length - 1)
+        {
+            StoneCurrentFab = -1;
+        }
+
+
+        if (RockCurrentFab >= RockPrefabs.Length - 1)
+        {
+            RockCurrentFab = -1;
         }
     }
 
 
     void deployPrefab()
     {
-        Instantiate(prefabs[currentFab + 1], prefabLocations[Random.RandomRange(0, prefabLocations.Length)].position, Quaternion.identity);
-        currentFab = currentFab + 1;
+        Instantiate(StonesPrefabs[StoneCurrentFab + 1], StonesPrefabLocations[Random.RandomRange(0, StonesPrefabLocations.Length)].position, Quaternion.identity);
+        StoneCurrentFab = StoneCurrentFab + 1;    
 
+    }
+
+    void deployRock()
+    {
+        Instantiate(RockPrefabs[RockCurrentFab + 1], RockPrefabLocations[Random.RandomRange(0, RockPrefabLocations.Length)].position, Quaternion.identity);
+        RockCurrentFab = RockCurrentFab + 1;
     }
 }

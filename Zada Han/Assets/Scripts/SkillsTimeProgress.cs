@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class SkillsTimeProgress : MonoBehaviour
 {
 
@@ -12,7 +13,13 @@ public class SkillsTimeProgress : MonoBehaviour
    public float Skill1CurrentValue;
     public Button skill1;
 
+    public TMP_Text timer;
 
+    public float time;
+    private void Start()
+    {
+        timer.maxVisibleCharacters = 2;
+    }
     void Update()
     {
         if (Skill1CurrentValue>0)
@@ -32,5 +39,12 @@ public class SkillsTimeProgress : MonoBehaviour
         {
             skill1.interactable= false;
         }
+    }
+
+
+    private void FixedUpdate()
+    {
+         time -= Time.deltaTime;
+        timer.text=time.ToString();
     }
 }
