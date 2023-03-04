@@ -6,7 +6,7 @@ public class rockManagement : MonoBehaviour
 {
 
     public GameObject particles;
-
+    public GameObject colliderInner;
     void Start()
     {
         particles.SetActive(false);
@@ -30,18 +30,31 @@ public class rockManagement : MonoBehaviour
 
             Destroy(gameObject,4f);
         }
+
+
+        
     }
+
+
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Skill1"))
         {
+
             gameObject.GetComponent<BoxCollider>().isTrigger = true;
+            gameObject.GetComponent<BoxCollider>().enabled = false;
+
             gameObject.GetComponent<MeshFilter>().mesh = null;
             gameObject.GetComponent<AudioSource>().Play();
             particles.SetActive(true);
 
+
             Destroy(gameObject, 4f);
+
+            Debug.Log(gameObject.name + " Skill 1 " + "'e" + " maruz kaldý.");
         }
+
+        
     }
 }

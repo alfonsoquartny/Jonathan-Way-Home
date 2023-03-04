@@ -54,7 +54,7 @@ public class Accelerometre : MonoBehaviour
         rb.velocity = new Vector2(dirX, 0f);
 
     }
-
+   
     public void Skill1()
     {
 
