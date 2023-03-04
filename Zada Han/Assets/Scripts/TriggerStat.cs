@@ -5,6 +5,10 @@ using UnityEngine;
 public class TriggerStat : MonoBehaviour
 {
     public SkillsTimeProgress stats;
+
+    public AudioSource CollectSource;
+
+    public AudioClip[] CollectEffects;
     void Start()
     {
         
@@ -26,7 +30,10 @@ public class TriggerStat : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Stone"))
         {
-            stats.time=stats.time +3;
+            stats.time=stats.time +4;
+            Destroy(other.gameObject);
+
+            CollectSource.PlayOneShot(CollectEffects[Random.RandomRange(0, CollectEffects.Length)]);
         }
     }
 }
