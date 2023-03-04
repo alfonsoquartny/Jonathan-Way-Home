@@ -1325,7 +1325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08eaca9e8cf50194b86c6595cf40849f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StoneTimer: 1.2
+  StoneTimer: 1.5
   RockTimer: 3.7
   StonesPrefabs:
   - {fileID: 7154849479459781315, guid: 1a47af1ecb2273d41b914fa5783de403, type: 3}
