@@ -1353,6 +1353,11 @@ namespace GooglePlayGames
 
             return (val) => PlayGamesHelperObject.RunOnGameThread(() => toConvert(val));
         }
+
+        public void Authenticate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 #endif

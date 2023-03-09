@@ -9,18 +9,39 @@ using System.Threading.Tasks;
 
 public class managementAPI : MonoBehaviour
 {
- 
-    void Start()
-    {
-        Social.localUser.Authenticate((bool success) => {
-            // handle success or failure
-        });
 
+    void InitializePlayGamesLogin()
+    {
+        PlayGamesPlatform.Instance.Authenticate();
+
+
+        PlayGamesPlatform.DebugLogEnabled = true;
+        PlayGamesPlatform.Activate();
     }
 
-    // Update is called once per frame
-    void Update()   
+    private void Start()
     {
-        
+        PlayGamesPlatform.Instance.Authenticate();
+
+        LoginGoogle();
+
+
+    }
+    void LoginGoogle()
+    {
+        Social.localUser.Authenticate(OnGoogleLogin);
+    }
+
+    void OnGoogleLogin(bool success)
+    {
+        if (success)
+        {
+            // Call Unity Authentication SDK to sign in or link with Google.
+            Debug.Log("Login with Google done. IdToken: " + ((PlayGamesLocalUser)Social.localUser).GetHashCode());
+        }
+        else
+        {
+            Debug.Log("Unsuccessful login");
+        }
     }
 }
