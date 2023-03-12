@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class SkillsTimeProgress : MonoBehaviour
 {
 
@@ -80,6 +81,10 @@ public class SkillsTimeProgress : MonoBehaviour
 
     public void toThisScene(int scene)
     {
-
+        SceneManager.LoadScene(scene);
+    }
+    public void exit()
+    {
+        Application.Quit();
     }
 }
