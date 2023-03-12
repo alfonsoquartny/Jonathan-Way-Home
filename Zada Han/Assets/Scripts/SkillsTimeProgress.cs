@@ -16,9 +16,17 @@ public class SkillsTimeProgress : MonoBehaviour
     public TMP_Text timer;
 
     public float time;
+
+
+    public GameObject[] destroys;
+
+
+    public GameObject finalObjects;
     private void Start()
     {
         timer.maxVisibleCharacters = 2;
+        finalObjects.SetActive(false);
+
     }
     void Update()
     {
@@ -46,5 +54,32 @@ public class SkillsTimeProgress : MonoBehaviour
     {
          time -= Time.deltaTime;
         timer.text=time.ToString();
+
+
+
+        if (time < 0)
+        {
+            LoseGame();
+        }
+    }
+
+
+    public void LoseGame()
+    {
+        finalObjects.SetActive(true);
+
+            int active=0;
+        Destroy(destroys[0]);
+        Destroy(destroys[1]);
+        Destroy(destroys[2]);
+        Destroy(destroys[3]);
+        Destroy(destroys[4]);
+
+    }
+
+
+    public void toThisScene(int scene)
+    {
+
     }
 }
