@@ -2051,7 +2051,7 @@ MonoBehaviour:
   Skill1CurrentValue: 0
   skill1: {fileID: 1561300809}
   timer: {fileID: 2013778053}
-  time: 60
+  time: 4
   destroys:
   - {fileID: 838061554}
   - {fileID: 87331387}
@@ -2851,7 +2851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &865401786
 Transform:
   m_ObjectHideFlags: 0
