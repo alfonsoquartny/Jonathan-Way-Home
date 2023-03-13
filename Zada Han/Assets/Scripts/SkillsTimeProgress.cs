@@ -23,6 +23,8 @@ public class SkillsTimeProgress : MonoBehaviour
 
 
     public GameObject finalObjects;
+
+    public AudioSource musicSource;
     private void Start()
     {
         timer.maxVisibleCharacters = 2;
@@ -54,7 +56,7 @@ public class SkillsTimeProgress : MonoBehaviour
     private void FixedUpdate()
     {
          time -= Time.deltaTime;
-        timer.text=time.ToString();
+        timer.text = string.Format("{0:00}", time);
 
 
 
@@ -68,8 +70,9 @@ public class SkillsTimeProgress : MonoBehaviour
     public void LoseGame()
     {
         finalObjects.SetActive(true);
+        musicSource.volume = 0.2f;
 
-            int active=0;
+        int active =0;
         Destroy(destroys[0]);
         Destroy(destroys[1]);
         Destroy(destroys[2]);

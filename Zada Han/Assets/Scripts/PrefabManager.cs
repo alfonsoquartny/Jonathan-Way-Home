@@ -22,6 +22,9 @@ public class PrefabManager : MonoBehaviour
     public int StoneCurrentFab;
     public int RockCurrentFab;
 
+    public SkillsTimeProgress progress;
+
+    public bool[] zorluk;
     void Start()
     {
         StonetimerStartCount = StoneTimer;
@@ -39,6 +42,43 @@ public class PrefabManager : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (progress.time > 60 && zorluk[0]==false)
+        {
+            RocktimerStartCount = RocktimerStartCount - 0.55f;
+            Debug.Log(RocktimerStartCount);
+
+            zorluk[0] = true;
+        }
+        if (progress.time > 70 && zorluk[1] == false)
+        {
+            RocktimerStartCount = RocktimerStartCount - 0.55f;
+
+
+            Debug.Log(RocktimerStartCount);
+
+            zorluk[1] = true;
+
+        }
+        if (progress.time > 80 && zorluk[2] == false)
+        {
+            RocktimerStartCount = RocktimerStartCount - 0.55f;
+
+
+            Debug.Log(RocktimerStartCount);
+            zorluk[2] = true;
+
+        }
+        if (progress.time > 90 && zorluk[3] == false)
+        {
+            RocktimerStartCount = RocktimerStartCount - 0.55f;
+
+
+            Debug.Log(RocktimerStartCount);
+
+            zorluk[3] = true;
+
+
+        }
         if (StoneTimer <= 0)
         {
             deployPrefab();
