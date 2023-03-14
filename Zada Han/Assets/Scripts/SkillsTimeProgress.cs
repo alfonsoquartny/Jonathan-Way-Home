@@ -27,8 +27,26 @@ public class SkillsTimeProgress : MonoBehaviour
     public AudioSource musicSource;
     private void Start()
     {
+        Debug.Log(PlayerPrefs.GetInt("reklam"));
+
         timer.maxVisibleCharacters = 2;
         finalObjects.SetActive(false);
+
+     
+        if (PlayerPrefs.GetInt("reklam") == 0)
+        {
+
+          
+            time = 45;
+
+        }
+        if (PlayerPrefs.GetInt("reklam") == 1)
+        {
+
+            PlayerPrefs.SetInt("reklam", 0);
+            time = 60;
+
+        }
 
     }
     void Update()
