@@ -14,7 +14,17 @@ public class InterstitialAdButton : MonoBehaviour, IUnityAdsLoadListener, IUnity
             ? _iOsAdUnitId
             : _androidAdUnitId;
     }
-
+    private void FixedUpdate()
+    {
+        if (PlayerPrefs.GetInt("reklam") == 1)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            gameObject.SetActive(true);
+        }
+    }
     // Load content to the Ad Unit:
     public void LoadAd()
     {
