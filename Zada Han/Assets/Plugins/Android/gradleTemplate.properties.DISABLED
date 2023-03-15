@@ -1,17 +1,5 @@
 org.gradle.jvmargs=-Xmx**JVM_HEAP_SIZE**M
 org.gradle.parallel=true
 android.enableR8=**MINIFY_WITH_R_EIGHT**
-unityStreamingAssets=.unity3d**STREAMING_ASSETS**
-**ADDITIONAL_PROPERTIES**
-android.useAndroidX=true
-
-android.enableJetifier=true
-org.gradle.jvmargs=-Xmx**JVM_HEAP_SIZE**M
-org.gradle.parallel=true
-android.enableR8=**MINIFY_WITH_R_EIGHT**
 unityStreamingAssets=**STREAMING_ASSETS**
 **ADDITIONAL_PROPERTIES**
-
-//add this code
-
-distributionUrl = https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
